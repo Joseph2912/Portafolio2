@@ -7,7 +7,7 @@ const AppPortfolio = () => {
       <h3 id="portfolio">Portafolio</h3>
       <div id="proyecto">
         <div id="imagenProyecto">
-          <img src="src/assets/App.jpeg" />
+          <img src="src/assets/app.jpeg" />
         </div>
         <div id="informacion">
           <h4 id="titulo">Delivery App | Android & IOS</h4>
