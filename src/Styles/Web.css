@@ -44,11 +44,12 @@
     transform: scale(1.1);
   }
   &:active {
-    transform: scale(0.95); /* Reducir ligeramente el tamaño cuando se presiona el botón */
+    transform: scale(
+      0.95
+    ); /* Reducir ligeramente el tamaño cuando se presiona el botón */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Cambiar la sombra para dar retroalimentación visual */
   }
 }
-
 
 #line {
   border: 1px solid #f0f0f0;
@@ -56,7 +57,6 @@
 }
 
 @media (max-width: 768px) {
-
 }
 
 @media (max-width: 576px) {
@@ -66,11 +66,11 @@
     padding-left: 0;
     justify-content: center;
 
-    & span{
+    & span {
       display: none;
     }
   }
-  #parrafo{
+  #parrafo {
     margin-left: 0px;
     padding-left: 20px;
     padding-right: 20px;
@@ -78,10 +78,9 @@
     font-size: 12px;
     text-align: center;
     text-wrap: pretty;
-
   }
 
-  #a {
+  #Proyectos {
     background-color: #f0f0ff;
     width: 240px;
     height: 52px;
@@ -90,9 +89,6 @@
     font-size: 16px;
     margin-left: 0px;
     margin-bottom: 32px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.877);
     transition: box-shadow 0.3s ease;
     transition: transform 0.3s ease-in-out; /* Agrega una transición suave a la transformación */
@@ -100,9 +96,17 @@
       transform: scale(1.1);
     }
     &:active {
-      transform: scale(0.95); /* Reducir ligeramente el tamaño cuando se presiona el botón */
+      transform: scale(
+        0.95
+      ); /* Reducir ligeramente el tamaño cuando se presiona el botón */
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Cambiar la sombra para dar retroalimentación visual */
     }
   }
 
+  #contenedor_boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
 }

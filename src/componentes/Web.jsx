@@ -21,6 +21,7 @@ const Web = () => {
           la Interaction Design Foundation.
         </p>
       </div>
+      <div id="contenedor_boton">
       <a
         href="https://github.com/Joseph2912"
         target="_blank"
@@ -33,6 +34,7 @@ const Web = () => {
           Proyectos en Github
         </button>
       </a>
+      </div>
       <Portfolio />
       <div>
         <Carrousel />
