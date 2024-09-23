@@ -37,25 +37,25 @@ const Carrousel = () => {
   }, []);
 
   const items = [
-    { src: "src/assets/figma.png", alt: "Figma", label: "Figma" },
-    { src: "src/assets/spline.png", alt: "Spline", label: "Spline" },
+    { src: "https://github.com/Joseph2912/Portafolio2/blob/main/src/assets/figma.png?raw=true", alt: "Figma", label: "Figma" },
+    { src: "https://github.com/Joseph2912/Portafolio2/blob/main/src/assets/spline.png?raw=true", alt: "Spline", label: "Spline" },
     {
-      src: "src/assets/illustrator.png",
+      src: "https://github.com/Joseph2912/Portafolio2/blob/main/src/assets/illustrator.png?raw=true",
       alt: "Illustrator",
       label: "Illustrator",
     },
-    { src: "src/assets/photoshop.png", alt: "Photoshop", label: "Photoshop" },
+    { src: "https://github.com/Joseph2912/Portafolio2/blob/main/src/assets/photoshop.png?raw=true", alt: "Photoshop", label: "Photoshop" },
     {
-      src: "src/assets/after-effects.png",
+      src: "https://github.com/Joseph2912/Portafolio2/blob/main/src/assets/after-effects.png?raw=true",
       alt: "After Effects",
       label: "After Effects",
     },
     {
-      src: "src/assets/premiere-pro.png",
+      src: "https://github.com/Joseph2912/Portafolio2/blob/main/src/assets/premiere-pro.png?raw=true",
       alt: "Premiere Pro",
       label: "Premiere Pro",
     },
-    { src: "src/assets/blender.png", alt: "Blender", label: "Blender" },
+    { src: "https://github.com/Joseph2912/Portafolio2/blob/main/src/assets/blender.png?raw=true", alt: "Blender", label: "Blender" },
   ];
 
   return (

@@ -6,7 +6,7 @@ const Portfolio = () => {
       <h3 id="portfolio">Portafolio</h3>
       <div id="proyecto">
         <div id="imagenProyecto">
-          <img src="src/assets/Portfolio.jpeg" />
+          <img src="https://github.com/Joseph2912/Portafolio2/blob/main/src/assets/Portfolio.jpeg?raw=true" />
         </div>
         <div id="informacion">
           <h4 id="titulo">Portafolio</h4>
@@ -36,7 +36,7 @@ const Portfolio = () => {
       </div>
       <div id="proyecto">
         <div id="imagenProyecto">
-          <img src="src/assets/underconstruction.jpg" />
+          <img src="https://github.com/Joseph2912/Portafolio2/blob/main/src/assets/underconstruction.jpg?raw=true" />
         </div>
         <div id="informacion">
           <h4 id="titulo">En construcción...</h4>
