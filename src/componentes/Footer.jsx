@@ -7,16 +7,16 @@ const Footer = () => {
     <footer className="footer-container">
       <div className="image-row">
         <div className="image-container">
-          <img src="src/assets/playstore.png" alt="image1" />
+          <img src="https://github.com/Joseph2912/Portafolio/blob/main/Portafolio/src/assets/playstore.png?raw=true" alt="image1" />
         </div>
         <div className="image-container">
-          <img src="src/assets/android.png" alt="image2" />
+          <img src="https://github.com/Joseph2912/Portafolio/blob/main/Portafolio/src/assets/android.png?raw=true" alt="image2" />
         </div>
         <div className="image-container">
-          <img src="src/assets/app_store.png" alt="image3" />
+          <img src="https://github.com/Joseph2912/Portafolio/blob/main/Portafolio/src/assets/app_store.png?raw=true" alt="image3" />
         </div>
         <div className="image-container">
-          <img src="src/assets/Xcode.png" alt="image4" />
+          <img src="https://github.com/Joseph2912/Portafolio/blob/main/Portafolio/src/assets/Xcode.png?raw=true" alt="image4" />
         </div>
       </div>
       <div className="separator"></div>
