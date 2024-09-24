@@ -150,4 +150,9 @@
     max-width: 350px; /* Limita el ancho del texto */
     text-wrap: pretty;
   }
+
+  #titulo{
+
+    font-size: 28px;
+  }
 }
