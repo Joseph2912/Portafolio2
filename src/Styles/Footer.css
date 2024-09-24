@@ -1,18 +1,17 @@
 .footer-container {
   background-color: #101010;
   color: #f0f0f0;
-  margin-left: 100px;
-  margin-right: 100px;
+
 }
 
 .image-row {
   display: flex;
   justify-content: space-between;
-  position: relative;
+  width: 100%; 
 }
 
 .image-container {
-  width: 18%;
+  width: 18%; /* Mantiene el tamaño de las imágenes */
   overflow: hidden;
 }
 
@@ -31,8 +30,10 @@
 
 .footer-content {
   display: flex;
-  justify-content: space-between;
-  margin-bottom: 137px;
+  flex-direction: column; /* Cambia a columna para pantallas pequeñas */
+  align-items: center; /* Centra el contenido */
+  text-align: center;
+  width: 100%;
 }
 
 .footer-column {
@@ -54,3 +55,5 @@
 .footer-column ul li {
   margin-bottom: 5px;
 }
+
+

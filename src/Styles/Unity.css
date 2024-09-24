@@ -4,6 +4,7 @@
   align-items: center;
   flex-direction: row;
 }
+
 #fotoperfil {
   display: flex;
   justify-content: center;
@@ -22,9 +23,7 @@
 
 #nombre {
   display: flex;
-
   flex-direction: column;
-
   font-family: "Montserrat", sans-serif;
   margin-left: 21px;
   color: #f0f0f0;
@@ -60,6 +59,7 @@
     text-wrap: pretty;
   }
 }
+
 #jams {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
@@ -154,11 +154,15 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.877);
   margin-left: 20px;
   transition: transform 0.3s ease-in-out; /* Agrega una transición suave a la transformación */
+
   &:hover {
     transform: scale(1.1);
   }
+
   &:active {
-    transform: scale(0.95); /* Reducir ligeramente el tamaño cuando se presiona el botón */
+    transform: scale(
+      0.95
+    ); /* Reducir ligeramente el tamaño cuando se presiona el botón */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Cambiar la sombra para dar retroalimentación visual */
   }
 }
@@ -168,8 +172,101 @@
   flex-direction: row;
   gap: 21px;
 }
+
 #linea {
   border: 1px solid #f0f0f0;
   margin-bottom: 50px;
+}
 
+/* Responsive styles */
+@media (max-width: 768px) {
+  #contenerdorperfil {
+    flex-direction: column; /* Cambiar a columna en pantallas pequeñas */
+    align-items: center; /* Centra el contenido */
+    margin-bottom: 20px;
+  }
+
+  #fotoperfil {
+    margin-bottom: 10px; /* Espacio entre la foto de perfil y el nombre */
+  }
+
+  #nombre {
+    align-items: center; /* Centra el nombre */
+    margin-left: 0; /* Elimina el margen izquierdo en pantallas pequeñas */
+    text-align: center; /* Centra el texto */
+  }
+
+  #Unity {
+    flex-direction: column; /* Cambia a columna */
+    align-items: center; /* Centra el contenido */
+    width: 100%; /* Asegúrate de que ocupe todo el ancho */
+    & span {
+      display: none;
+    }
+  }
+
+  #Unity p {
+    width: auto; /* Ajusta el ancho del párrafo */
+    text-align: center; /* Centra el texto del párrafo */
+    margin-top: 10px; /* Espacio adicional entre el título y el párrafo */
+  }
+
+  #jams {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: #f0f0ff;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  #parrafojams,
+  #parrafodungeon {
+    width: 100%; /* Asegúrate de que los párrafos ocupen todo el ancho */
+    text-align: center; /* Centra el texto */
+    margin-left: 0; /* Elimina el margen izquierdo */
+    text-wrap: pretty;
+    margin-bottom: 20px;
+  }
+
+  #desarrollados {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: #f0f0ff;
+    margin-bottom: 30px;
+    text-align: center; /* Centra el texto */
+  }
+
+  #imagenProyectodungeon {
+    width: 100%; /* Ajusta el ancho de la imagen */
+    max-width: 300px; /* Tamaño máximo para mantener la consistencia */
+    height: auto; /* Mantiene las proporciones */
+    display: block; /* Asegura que la imagen esté centrada */
+    margin: 0 auto; /* Centra la imagen */
+  }
+
+  #juegos {
+    display: flex;
+    flex-direction: column; /* Cambia a columna */
+    align-items: center; /* Centra los elementos */
+    gap: 20px; /* Espaciado entre juegos */
+  }
+
+  #jugar {
+    max-width: 120px; /* Tamaño máximo para mantener la consistencia */
+    margin-top: 20px; /* Espacio adicional en la parte superior */
+    text-align: center; /* Centra el texto del botón */
+  }
+
+  #titulodungeon {
+    text-align: center;
+  }
+
+  #botones {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
 }

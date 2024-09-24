@@ -7,7 +7,7 @@ const Unity = () => {
       <div id="Unity">
         <div id="contenerdorperfil">
           <div id="fotoperfil">
-            <img src="src/assets/frog.png" />
+            <img src="https://github.com/Joseph2912/Portafolio/blob/main/Portafolio/src/assets/frog.png?raw=true" />
           </div>
           <div id="nombre">
             <h4>Perfil de Itchio:</h4>
@@ -41,7 +41,7 @@ const Unity = () => {
       <div id="juegos">
         <div>
           <div id="imagenProyectodungeon">
-            <img src="src/assets/dungeon.png" />
+            <img src="https://github.com/Joseph2912/Portafolio/blob/main/Portafolio/src/assets/dungeon.png?raw=true" />
           </div>
           <div id="titulodungeon">
             <h4>Royal Dungeons</h4>
@@ -54,6 +54,7 @@ const Unity = () => {
               libertad.
             </p>
           </div>
+          <div id="botones">
           <a
             href="https://betsyale.itch.io/royal-dungeons"
             target="_blank"
@@ -66,10 +67,11 @@ const Unity = () => {
               Jugar
             </button>
           </a>
+          </div>
         </div>
         <span>
           <div id="imagenProyectodungeon">
-            <img src="src/assets/safari.png" />
+            <img src="https://github.com/Joseph2912/Portafolio/blob/main/Portafolio/src/assets/safari.png?raw=true" />
           </div>
           <div id="titulodungeon">
             <h4>Snap and Roam</h4>
@@ -82,8 +84,9 @@ const Unity = () => {
               localizar y fotografiar seis animales específicos.
             </p>
           </div>
+          <div id="botones">
           <a
-            href="https://rickal16.itch.io/snap-and-roam"
+            href="https://betsyale.itch.io/royal-dungeons"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -94,10 +97,11 @@ const Unity = () => {
               Jugar
             </button>
           </a>
+          </div>
         </span>
         <span>
           <div id="imagenProyectodungeon">
-            <img src="src/assets/mapache.png" />
+            <img src="https://github.com/Joseph2912/Portafolio/blob/main/Portafolio/src/assets/mapache.png?raw=true" />
           </div>
           <div id="titulodungeon">
             <h4>Run, raccoon, run!</h4>
@@ -109,8 +113,9 @@ const Unity = () => {
               Travieso!
             </p>
           </div>
+          <div id="botones">
           <a
-            href="https://betsyale.itch.io/run-raccoon-run"
+            href="https://betsyale.itch.io/royal-dungeons"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -121,6 +126,7 @@ const Unity = () => {
               Jugar
             </button>
           </a>
+          </div>
         </span>
       </div>
       </div>

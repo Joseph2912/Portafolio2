@@ -47,17 +47,17 @@ const Portfolio = () => {
           <span id="spanbutton">
             <button
               className=" justify-center items-center rounded-full"
+              id="codigodesactivado2"
+            >
+              Codigo en Github
+            </button>
+            <button
+              className=" justify-center items-center rounded-full"
               id="codigodesactivado1"
             >
               Ver proyecto
             </button>
 
-            <button
-              className=" justify-center items-center rounded-full"
-              id="codigodesactivado2"
-            >
-              Codigo en Githubdd
-            </button>
           </span>
         </div>
       </div>
