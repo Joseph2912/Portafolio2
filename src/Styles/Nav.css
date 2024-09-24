@@ -47,35 +47,35 @@
 }
 
 @media (max-width: 768px) {
-  /* Estilos específicos para tabletas */
   .navbar {
-    position: fixed;
+    position: fixed; /* Mantener la barra en la parte superior */
     background-color: #212121;
     padding: 1rem;
     border-radius: 50px;
     left: 20px;
     top: 5px;
+    z-index: 10; /* Asegúrate de que la barra esté en la parte superior */
   }
 
   .nav_items {
     display: flex;
-    position: absolute;
+    position: fixed; /* Cambia a fixed para que se desplace con el contenido */
     justify-content: left;
     align-items: flex-start;
-    top: 80px;
+    top: 80px; /* Ajusta según la altura de tu barra de navegación */
     left: 0;
-    margin-left: -0px;
     padding-left: 20px;
     padding-top: 20px;
     background: #212121;
     flex-direction: column;
     width: 300px;
-    height: calc(100vh - 60px);
+    height: calc(100vh - 80px); /* Asegúrate de que no se superponga con la barra de navegación */
     transform: translateX(-180%);
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
-    transition: transform 0s ease-in-out;
+    transition: transform 0.3s ease-in-out; /* Cambia el tiempo de la transición para que sea más fluido */
   }
+
 
   .nav_items.open {
     transform: translateX(0);
@@ -102,32 +102,32 @@
   /* Estilos específicos para móviles */
 
   .navbar {
-    position: fixed;
+    position: fixed; /* Mantener la barra en la parte superior */
     background-color: #212121;
     padding: 1rem;
     border-radius: 50px;
     left: 20px;
     top: 5px;
+    z-index: 10; /* Asegúrate de que la barra esté en la parte superior */
   }
 
   .nav_items {
     display: flex;
-    position: absolute;
+    position: fixed; /* Cambia a fixed para que se desplace con el contenido */
     justify-content: left;
     align-items: flex-start;
-    top: 80px;
+    top: 80px; /* Ajusta según la altura de tu barra de navegación */
     left: 0;
-    margin-left: -0px;
     padding-left: 20px;
     padding-top: 20px;
     background: #212121;
     flex-direction: column;
     width: 300px;
-    height: calc(100vh - 60px);
+    height: calc(100vh - 80px); /* Asegúrate de que no se superponga con la barra de navegación */
     transform: translateX(-180%);
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
-    transition: transform 0s ease-in-out;
+    transition: transform 0.3s ease-in-out; /* Cambia el tiempo de la transición para que sea más fluido */
   }
 
   .nav_items.open {
@@ -154,33 +154,34 @@
 /* Responsive styles */
 @media (max-width: 576px) {
   .navbar {
-    position: fixed;
+    position: fixed; /* Mantener la barra en la parte superior */
     background-color: #212121;
     padding: 1rem;
     border-radius: 50px;
     left: 20px;
     top: 5px;
+    z-index: 10; /* Asegúrate de que la barra esté en la parte superior */
   }
 
   .nav_items {
     display: flex;
-    position: absolute;
+    position: fixed; /* Cambia a fixed para que se desplace con el contenido */
     justify-content: left;
     align-items: flex-start;
-    top: 80px;
+    top: 80px; /* Ajusta según la altura de tu barra de navegación */
     left: 0;
-    margin-left: -0px;
     padding-left: 20px;
     padding-top: 20px;
     background: #212121;
     flex-direction: column;
     width: 300px;
-    height: calc(100vh - 60px);
+    height: calc(100vh - 80px); /* Asegúrate de que no se superponga con la barra de navegación */
     transform: translateX(-180%);
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
-    transition: transform 0s ease-in-out;
+    transition: transform 0.3s ease-in-out; /* Cambia el tiempo de la transición para que sea más fluido */
   }
+
 
   .nav_items.open {
     transform: translateX(0);
