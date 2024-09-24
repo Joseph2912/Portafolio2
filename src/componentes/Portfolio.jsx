@@ -3,7 +3,9 @@ import "../Styles/Portfolio.css";
 const Portfolio = () => {
   return (
     <div id="container">
+      <div id="encabezado">
       <h3 id="portfolio">Portafolio</h3>
+      </div>
       <div id="proyecto">
         <div id="imagenProyecto">
           <img src="https://github.com/Joseph2912/Portafolio2/blob/main/src/assets/Portfolio.jpeg?raw=true" />
