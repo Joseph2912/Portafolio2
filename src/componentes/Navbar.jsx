@@ -20,7 +20,7 @@ const Navbar = () => {
         <a href="#game-developer" onClick={closeMenu}>Game Developer</a>
         <a href="#app-developer" onClick={closeMenu}>App Developer</a>
         <a
-          href="https://drive.google.com/file/d/1k21-RV5W1mBdGJxAwem5QDH-kVk6zuug/view"
+          href="https://drive.google.com/file/d/1k21-RV5W1mBdGJxAwem5QDH-kVk6zuug/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           onClick={closeMenu}
