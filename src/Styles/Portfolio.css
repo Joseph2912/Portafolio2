@@ -19,8 +19,8 @@
 }
 
 #imagenProyecto {
-  width: 386px;
-  height: 293px;
+  width: 300px; /* Ajusta el tamaño según sea necesario */
+  height: 300px; /* Asegura que la imagen sea cuadrada */
   border-radius: 30px;
   border: 0.5px solid #f0f0f0;
   display: flex;
@@ -32,7 +32,7 @@
 #imagenProyecto img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: cover; /* Mantiene la proporción de la imagen */
   image-rendering: optimizeSpeed;
   user-select: none;
   -moz-user-select: none;
@@ -113,7 +113,6 @@
 }
 
 @media (max-width: 576px) {
-
   #container {
     margin-left: 20px;
     margin-right: 20px;
@@ -129,7 +128,7 @@
   #imagenProyecto {
     width: 100%; /* La imagen ocupa todo el ancho del contenedor */
     max-width: 350px; /* Tamaño máximo para mantener la consistencia */
-    height: auto; /* Mantiene las proporciones */
+    height: 350px; /* Mantener cuadrado en dispositivos pequeños */
   }
 
   #informacion {
@@ -151,8 +150,7 @@
     text-wrap: pretty;
   }
 
-  #titulo{
-
+  #titulo {
     font-size: 28px;
   }
 }
